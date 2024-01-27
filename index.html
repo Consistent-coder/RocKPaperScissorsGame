@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor- Let's Bring Childhood back</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1>Rock Paper & Scissor</h1>
+        </div>
+    </header>
+    <main>
+
+        <div class="choices">
+            <button class="btn btn1">Rock</button>
+            <button class="btn btn2">Paper</button>
+            <button class="btn btn3">Scissor</button>
+        </div>
+
+        <div class="takeChoice">
+            <p>For how many points you want to play? </p>
+            <div class="inputTake">
+            <input type="text">
+            <button class="submit">Submit</button>
+        </div>
+        </div>
+        <div class="choiceTaken hidden">Total No of Matches Selected: <span class="totalChance">0 &nbsp;</span>
+           , Start the Match.
+            </div>
+        <div class="container">
+            <div class="scoreDiv">
+                <div class="humanScore">0</div>
+                <div class="compScore">0</div>
+            </div>
+        <div class="player human">
+            <h2>Human: </h2>
+            <img class="hide humanImg" src="./images/paper.png" alt="">
+        </div>
+        <div class="player computer">
+            <h2>Robot: </h2>
+            <img class="hide computerImg" src="./images/rock.png" alt="">
+        </div>
+        <button class="reset">RESET</button>
+        <div class="message">
+            <div class="messageText">Message: </div>
+            <div class="messageDisplay">No result yet</div>
+        </div>
+    </div>
+    </main>
+    <script src="./script.js"></script>
+</body> 
+</html>
